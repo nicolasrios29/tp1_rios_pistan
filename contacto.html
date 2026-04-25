@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MU Salta - Contacto</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mu Salta 99b</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="info.html">Información</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Registro de usuario</h2>
+
+        <form action="#" method="POST">
+            <!-- Grupo 1: Datos personales -->
+            <fieldset>
+                <legend>Datos personales</legend>
+                
+                <label>Nombre: <input type="text" name="nombre"></label>
+                <br><br>
+                
+                <label>Email: <input type="email" name="email"></label>
+                <br><br>
+                
+                <label>Contraseña: <input type="password" name="pass"></label>
+                <br><br>
+                
+                <label>Mensaje:
+                    <textarea name="mensaje" rows="3" cols="40"></textarea>
+                </label>
+            </fieldset>
+            <br>
+
+            <!-- Grupo 2: Servidor favorito -->
+            <fieldset>
+                <legend>Servidor favorito</legend>
+                <select name="servidor">
+                    <option>99b</option>
+                    <option>Season 6</option>
+                    <option>Season 12</option>
+                </select>
+            </fieldset>
+            <br>
+
+            <!-- Grupo 3: Género -->
+            <fieldset>
+                <legend>Género</legend>
+                <label><input type="radio" name="genero" value="m"> Masculino</label>
+                <label><input type="radio" name="genero" value="f"> Femenino</label>
+            </fieldset>
+            <br>
+
+            <!-- Grupo 4: Preferencias -->
+            <fieldset>
+                <legend>Qué te interesa</legend>
+                <label><input type="checkbox" name="interes" value="pvp"> PvP</label>
+                <label><input type="checkbox" name="interes" value="pvm"> PvM</label>
+                <label><input type="checkbox" name="interes" value="gremios"> Gremios</label>
+            </fieldset>
+            <br>
+
+            <!-- Botones -->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+
+        <!-- Enlace externo -->
+        <p>Más información en la <a href="https://muonline.webzen.com/" target="_blank" rel="noopener noreferrer">página oficial</a></p>
+
+        <!-- Enlace interno -->
+        <p><a href="#footer">Ir al pie de página</a></p>
+    </main>
+
+    <footer id="footer">
+        <p>Rios Nicolas-Pistan Renso</p>
+    </footer>
+
+</body>
+</html>

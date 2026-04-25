@@ -1,0 +1,92 @@
+/* Estilo para títulos */
+h1 {
+    color: lime;
+}
+
+h2 {
+    color: aqua;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: lightgray;
+}
+
+/* Encabezado */
+header {
+    background-color:blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contenido principal */
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color:blue;
+    color: white;
+}
+
+/* Pie de página */
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Formularios */
+fieldset {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 5px;
+}
+
+input, textarea, select {
+    padding: 5px;
+    margin: 5px 0;
+}
