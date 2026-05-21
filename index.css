@@ -1,32 +1,41 @@
-/* Estilo para títulos */
-h1 {
-    color: lime;
-}
-
-h2 {
-    color: aqua;
-}
-
-/* Estilo general del cuerpo */
+/* Fondo con imagen */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: lightgray;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e0e0e0;
+    
+    /* Imagen de fondo */
+    background-image: url("img/mu-fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-/* Encabezado */
+/* Encabezado semi-transparente */
 header {
-    background-color:blue;
-    color: white;
+    background-color: rgba(26, 26, 46, 0.85);
+    color: gold;
     padding: 20px;
     text-align: center;
-    border-radius: 10px;
+    border: 2px solid gold;
+    margin-bottom: 20px;
 }
 
-/* Navegación */
+header h1 {
+    color: gold;
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Navegacion */
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
+    margin-top: 15px;
 }
 
 nav ul li {
@@ -40,53 +49,110 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Contenido principal */
+nav ul li a:hover {
+    color: gold;
+}
+
+/* Contenido principal semi-transparente */
 main {
-    background-color: white;
+    background-color: rgba(15, 15, 26, 0.85);
     padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: gold;
+}
+
+h2 {
+    border-bottom: 1px solid gold;
+    padding-bottom: 5px;
 }
 
 /* Tablas */
 table {
     width: 100%;
     border-collapse: collapse;
+    background-color: rgba(10, 10, 15, 0.8);
 }
 
 th, td {
-    border: 1px solid black;
-    padding: 8px;
+    border: 1px solid gold;
+    padding: 10px;
     text-align: left;
 }
 
 th {
-    background-color:blue;
-    color: white;
+    background-color: rgba(26, 26, 46, 0.85);
+    color: gold;
 }
 
-/* Pie de página */
+td {
+    color: #ccc;
+}
+
+/* Pie de página semi-transparente */
 footer {
-    background-color: blue;
-    color: white;
+    background-color: rgba(26, 26, 46, 0.85);
+    color: #666;
     text-align: center;
     padding: 15px;
-    border-radius: 10px;
-    margin-top: 20px;
+    border-top: 1px solid gold;
 }
 
 /* Formularios */
 fieldset {
-    margin-bottom: 15px;
+    border: 1px solid gold;
     border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: rgba(10, 10, 15, 0.8);
 }
 
 legend {
+    color: gold;
     font-weight: bold;
-    padding: 5px;
+    padding: 0 10px;
+}
+
+label {
+    color: #ccc;
 }
 
 input, textarea, select {
+    background-color: #1a1a2e;
+    color: white;
+    border: 1px solid gold;
     padding: 5px;
     margin: 5px 0;
+    border-radius: 3px;
+}
+
+input:focus, textarea:focus, select:focus {
+    background-color: #2a2a3e;
+}
+
+/* Botones */
+input[type="submit"], input[type="reset"] {
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+/* Imagen */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid gold;
+    border-radius: 5px;
 }
