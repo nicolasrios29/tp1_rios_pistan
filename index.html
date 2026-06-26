@@ -40,8 +40,30 @@
         <!--Sección 2: Imagen representativa-->
         <section>
             <h2>Imagen del juego</h2>
-          <img src="img/imageninicio.webp" alt="MU Online 99b" width="600">
-            <p><em>Mu Salta <strong></strong></em></p>
+            <img src="img/imageninicio.webp" alt="MU Online 99b" width="600">
+            <p><em>Mu Salta</em></p>
+        </section>
+
+        <!-- Sección 3: Mostrar/Ocultar información -->
+        <section>
+            <button id="btnMostrar" style="padding:8px 15px;cursor:pointer;background-color:gold;color:black;border:none;border-radius:5px;font-weight:bold;">
+                Mostrar más información
+            </button>
+            <div id="infoExtra" style="display:none;margin-top:10px;padding:10px;background-color:rgba(0,0,0,0.6);border-radius:5px;border:1px solid gold;">
+                <p><strong>📜 Historia de MU Online</strong></p>
+                <p>MU Online fue lanzado en el año 2001 por Webzen. Esta versión 99b es una de las más recordadas por la comunidad.</p>
+                <p>¿Sabías que? El personaje más popular es el Dark Knight por su equilibrio entre ataque y defensa.</p>
+            </div>
+        </section>
+
+        <!-- Sección 4: Personajes favoritos -->
+        <section>
+            <h3>⭐ Mis personajes favoritos</h3>
+            <input type="text" id="nuevoPersonaje" placeholder="Nombre del personaje" style="padding:6px;border:1px solid gold;border-radius:3px;background-color:#1a1a2e;color:white;">
+            <button id="btnAgregarPersonaje" style="padding:6px 12px;cursor:pointer;background-color:gold;color:black;border:none;border-radius:3px;font-weight:bold;">
+                Agregar
+            </button>
+            <ul id="listaPersonajes" style="margin-top:10px;list-style-type:disc;color:gold;padding-left:20px;"></ul>
         </section>
     
     </main>
@@ -49,8 +71,10 @@
     <!--FOOTER: Pie de página-->
     <footer id="footer">
         <p>Trabajo práctico de HTML</p>
-        <p>Rios Nicolas, Pistan Renso</p>
+        <p>Rios Nicolas, Pistan Renso,</p>
     </footer>
 
+    <!-- Scripts -->
+    <script src="main.js"></script>
 </body>
 </html>

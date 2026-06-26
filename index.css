@@ -156,3 +156,28 @@ img {
     border: 2px solid gold;
     border-radius: 5px;
 }
+/* Transiciones para mejorar la experiencia */
+nav ul li a {
+    transition: color 0.3s ease;
+}
+
+input[type="submit"], input[type="reset"] {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    transform: scale(1.05);
+}
+
+img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+}
+
+.alerta-js {
+    transition: opacity 0.3s ease;
+}
