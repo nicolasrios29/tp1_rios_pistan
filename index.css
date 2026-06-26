@@ -23,6 +23,7 @@ header {
     text-align: center;
     border: 2px solid gold;
     margin-bottom: 20px;
+
 }
 
 header h1 {
@@ -40,7 +41,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 105px;
 }
 
 nav ul li a {
@@ -79,14 +80,14 @@ table {
 }
 
 th, td {
-    border: 1px solid gold;
+    border: 1px solid cyan;
     padding: 10px;
     text-align: left;
 }
 
 th {
     background-color: rgba(26, 26, 46, 0.85);
-    color: gold;
+    color: cyan;
 }
 
 td {
@@ -111,7 +112,7 @@ fieldset {
 }
 
 legend {
-    color: gold;
+    color: cyan;
     font-weight: bold;
     padding: 0 10px;
 }
